@@ -1,5 +1,7 @@
 # Catppuccin Mocha SDDM Theme 🐱☕
 
+![Preview](assets/image.png)
+
 A sleek, modern, and highly modular SDDM login theme featuring the authentic Catppuccin Mocha color palette. Built with a focus on simplicity, responsiveness, and aesthetic appeal.
 
 ## 🌟 Features
