@@ -1,0 +1,8 @@
+[SddmGreeterTheme]
+Name=sddm-catppuccin-mocha
+Description=Catppuccin Mocha for SDDM 
+Author=apophyx
+Version=1.0
+License=MIT
+Type=sddm-theme
+QtVersion=6
