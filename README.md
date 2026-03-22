@@ -38,20 +38,20 @@ sudo apt install sddm qml6-module-qtquick qml6-module-qtquick-effects qml6-modul
 ### 1. Deploy the Theme
 Clone or copy the directory to your system's SDDM theme folder:
 ```bash
-sudo cp -r sddm-catppuccin-mocha /usr/share/sddm/themes/
+sudo cp -r catppuccin-mocha-sddm-theme /usr/share/sddm/themes/
 ```
 
 ### 2. Set as Default
 Enable the theme by creating an override configuration:
 ```bash
 sudo mkdir -p /etc/sddm.conf.d
-echo -e "[Theme]\nCurrent=sddm-catppuccin-mocha" | sudo tee /etc/sddm.conf.d/10-theme.conf
+echo -e "[Theme]\nCurrent=catppuccin-mocha-sddm-theme" | sudo tee /etc/sddm.conf.d/10-theme.conf
 ```
 
 ### 3. Test (Optional)
 You can preview the theme in a windowed environment before logging out:
 ```bash
-sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-catppuccin-mocha
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/catppuccin-mocha-sddm-theme
 ```
 
 ## 🎨 Customization
